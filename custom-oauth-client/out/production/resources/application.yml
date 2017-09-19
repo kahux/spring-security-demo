@@ -1,0 +1,25 @@
+server:
+  port: 9085
+  context-path: /client
+
+spring:
+  application:
+    name: custom-oauth-client
+
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      client-id: came
+      client-secret: caomest
+      access-token-uri: http://localhost:9084/oauth/token
+      user-authorization-uri: http://localhost:9084/oauth/authorize
+      client-authentication-scheme: form
+    resource:
+      user-info-uri: http://localhost:9084/me
+      prefer-token-info: false
+
+logging:
+  level:
+    org.springframework.security: debug

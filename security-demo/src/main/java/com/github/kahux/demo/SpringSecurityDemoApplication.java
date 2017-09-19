@@ -1,4 +1,4 @@
-package com.github.kahux;
+package com.github.kahux.demo;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

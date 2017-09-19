@@ -1,3 +1,4 @@
 include 'custom-oauth-server'
 include 'security-demo'
+include 'custom-oauth-client'
 

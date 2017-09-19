@@ -1,4 +1,4 @@
-package com.github.kahux.config;
+package com.github.kahux.demo.config;
 
 import org.apache.log4j.Logger;
 import org.springframework.context.annotation.Bean;

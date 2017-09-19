@@ -1,4 +1,4 @@
-package com.github.kahux;
+package com.github.kahux.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
