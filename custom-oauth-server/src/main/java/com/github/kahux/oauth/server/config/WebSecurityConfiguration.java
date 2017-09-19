@@ -31,8 +31,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
           .authenticated()
           .and()
         .csrf()
-          .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse())
-          .and()
+          .disable()
         .formLogin()
           .and()
         .httpBasic();

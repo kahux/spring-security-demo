@@ -18,7 +18,6 @@ security:
       client-authentication-scheme: form
     resource:
       user-info-uri: http://localhost:9084/me
-      prefer-token-info: false
 
 logging:
   level:

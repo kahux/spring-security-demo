@@ -9,6 +9,11 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 @SpringBootApplication
 public class CustomOauthServerApplication {
 
+  /**
+   * Application entry.
+   *
+   * @param args  command line parameters
+   */
   public static void main(String[] args) {
     new SpringApplicationBuilder(CustomOauthServerApplication.class)
         .bannerMode(Mode.OFF)
