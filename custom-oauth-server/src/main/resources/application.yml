@@ -1,0 +1,20 @@
+server:
+  port: 9084
+
+spring:
+  application:
+    name: custom-oauth-server
+
+security:
+  oauth2:
+    client:
+      client-id: came
+      client-secret: caomest
+      grant-type: password
+      scope: trust
+  user:
+    password: admin
+
+logging:
+  level:
+    org.springframework.security: debug
