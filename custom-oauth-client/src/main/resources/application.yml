@@ -16,6 +16,7 @@ security:
       access-token-uri: http://localhost:9084/oauth/token
       user-authorization-uri: http://localhost:9084/oauth/authorize
       client-authentication-scheme: form
+      scope: trust
     resource:
       user-info-uri: http://localhost:9084/me
 

@@ -12,9 +12,8 @@ security:
     client:
       client-id: came
       client-secret: caomest
-      scope: trust
-      grant-type: password,authorization_code
       auto-approve-scopes: '.*'
+      scope: trust
     # resource:
     #  jwt:
     #    key-value:
