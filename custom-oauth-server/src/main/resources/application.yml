@@ -12,7 +12,6 @@ security:
     client:
       client-id: came
       client-secret: caomest
-      auto-approve-scopes: '.*'
       scope: trust
     # resource:
     #  jwt:
